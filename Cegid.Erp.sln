@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cegid.Erp", "Cegid.Erp\Cegid.Erp.csproj", "{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{018EF1E5-0C9A-4481-968B-927FA623A22B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SiteDebug|Any CPU = SiteDebug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}.SiteDebug|Any CPU.ActiveCfg = SiteDebug|Any CPU
+		{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}.SiteDebug|Any CPU.Build.0 = SiteDebug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97422A5F-0576-4CAE-9585-CF3F68000F06}
+	EndGlobalSection
+EndGlobal

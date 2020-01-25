@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cegid.Erp</RootNamespace>
+    <AssemblyName>Cegid.Erp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac, Version=4.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.4.3.0\lib\net45\Autofac.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PX.AddressValidator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.AddressValidator.19.111.0038\lib\net40\PX.AddressValidator.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Api.ContractBased, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3b136cac2f602b8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.Api.ContractBased.19.111.0038\lib\net40\PX.Api.ContractBased.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Api.ContractBased.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3b136cac2f602b8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.Api.ContractBased.Common.19.111.0038\lib\net40\PX.Api.ContractBased.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Api.Mobile.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3b136cac2f602b8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.Api.Mobile.Model.19.111.0038\lib\net40\PX.Api.Mobile.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Api.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3b136cac2f602b8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.Api.Shared.19.111.0038\lib\net40\PX.Api.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.BulkInsert, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3b136cac2f602b8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.BulkInsert.19.111.0038\lib\net40\PX.BulkInsert.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.CarrierService, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.CarrierService.19.111.0038\lib\net40\PX.CarrierService.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.CCProcessingBase, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.CCProcessingBase.19.111.0038\lib\net40\PX.CCProcessingBase.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3b136cac2f602b8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.Common.19.111.0038\lib\net40\PX.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.CS.Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.CS.Contracts.19.111.0038\lib\net40\PX.CS.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Dashboards, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3b136cac2f602b8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.Dashboards.19.111.0038\lib\net40\PX.Dashboards.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Dashboards.Widgets, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3b136cac2f602b8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.Dashboards.Widgets.19.111.0038\lib\net40\PX.Dashboards.Widgets.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3b136cac2f602b8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.Data.19.111.0038\lib\net40\PX.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Data.BQL.Fluent, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3b136cac2f602b8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.Data.BQL.Fluent.19.111.0038\lib\net40\PX.Data.BQL.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.DataSync, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3b136cac2f602b8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.DataSync.19.111.0038\lib\net40\PX.DataSync.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.DataSync.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3b136cac2f602b8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.DataSync.Core.19.111.0038\lib\net40\PX.DataSync.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.DbServices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3b136cac2f602b8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.DbServices.19.111.0038\lib\net40\PX.DbServices.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Export, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3b136cac2f602b8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.Export.19.111.0038\lib\net40\PX.Export.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.LicensePolicy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3b136cac2f602b8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.LicensePolicy.19.111.0038\lib\net40\PX.LicensePolicy.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Objects, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.Objects.19.111.0038\lib\net40\PX.Objects.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Objects.FS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.Objects.FS.19.111.0038\lib\net40\PX.Objects.FS.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Olap, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3b136cac2f602b8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.Olap.19.111.0038\lib\net40\PX.Olap.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Owin.Interfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3b136cac2f602b8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.Owin.Interfaces.19.111.0038\lib\net40\PX.Owin.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Reports, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3b136cac2f602b8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.Reports.19.111.0038\lib\net40\PX.Reports.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Reports.ARm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3b136cac2f602b8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.Reports.ARm.19.111.0038\lib\net40\PX.Reports.ARm.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.TaxProvider, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.TaxProvider.19.111.0038\lib\net40\PX.TaxProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Web.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3b136cac2f602b8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.Web.UI.19.111.0038\lib\net40\PX.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Web.UI.Frameset, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3b136cac2f602b8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\PX.Web.UI.Frameset.19.111.0038\lib\net40\PX.Web.UI.Frameset.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Globalization" />
+    <Reference Include="System.Runtime" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\VersionInfo.cs">
+      <Link>Properties\VersionInfo.cs</Link>
+    </Compile>
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\PXOemVersion.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Cegid.Erp</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>if not "$(ConfigurationName)" == "SiteDebug" (
+  mkdir "$(SolutionDir)SiteProject\CegidErp\Bin\"
+  copy $(TargetPath) "$(SolutionDir)SiteProject\CegidErp\Bin\"
+)
+</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
